@@ -1,0 +1,15 @@
+db.users.insertOne( { username: "Jan", password: 12345 } );
+
+
+
+db.users.update({'name': "Thea K"}, { "$set" : { "password": 'hundenViggo' }}, false,true)
+
+db.users.update({'name': "Thea K"}, { "$unset" : { "age": 30 }}, false,true)
+
+db.users.update({'name': "Thea K"}, { "$set" : { "password": '$2b$10$qHsW9MbNkKKvZHFVUVbwPO6tdCNMSiC9RsdeAjmG79/hkQ4oyqNBm' }}, false,true)
+
+db.users.update({'name': "Thea K"}, { "$set" : { "password": '$2b$10$qHsW9MbNkKKvZHFVUVbwPO6tdCNMSiC9RsdeAjmG79/hkQ4oyqNBp' }}, false,true)
+
+db.users.deleteOne( { name: "D" } )
+
+$2b$10$qHsW9MbNkKKvZHFVUVbwPO6tdCNMSiC9RsdeAjmG79/hkQ4oyqNBm

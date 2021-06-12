@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+}
+
+#rooms-listView
+{
+  position: relative; 
+  
+  justify-content: left;
+  width: 25%;
+
+  float: left;
+}
+
+#message-container {
+  width: 50%;
+  max-width: 200px; 
+  
+  float: left;  
+  
+  
+}
+
+#message-container div {
+  
+  background-color: #CCC;
+  padding: 5px;
+  float: left;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #FFF;
+}
+
+#send-container {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: white;
+  max-width: 1200px;
+  /*width: 50%;*/
+  display: flex;
+  /*float: left;*/
+  /*margin-right: 500px; */
+
+}
+
+#message-input {
+  flex-grow: 1;
+}
+
+
+
+#rooms-listView {
+    color: maroon;
+    background-color: linen;
+    width: 25%;
+    float: left;
+    margin-left: -250px;
+}
+#message-container {
+    color: rgb(21, 231, 84);
+    background-color: linen;
+    width: 50%;
+    float: left;
+}
+#users-List {
+    color: rgb(64, 11, 211);
+    background-color: linen;
+    width: 25%;
+    float: left;
+    margin-left: 350px;
+}   
+        

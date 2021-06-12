@@ -1,0 +1,29 @@
+{
+  "name": "eksam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "node-gyp": "^8.1.0",
+    "passport": "^0.4.1",
+    "socket.io": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theakbk/NodeJS_Eksamen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theakbk/NodeJS_Eksamen/issues"
+  },
+  "homepage": "https://github.com/theakbk/NodeJS_Eksamen#readme"
+} 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+       <!-- id = # and class = . -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js">
+    </script>
+
+    <script>
+    const name = "${username}"
+        console.log('username from html ', name)
+    </script>
+    <script defer src="chat.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <br><br>
+    <div id='rooms-listView'></div>
+
+    <div id="message-container">
+    <form id="send-container" style="display: inline-block;">
+        <input type="text" id="message-input">
+        <button type="submit" id="send-button">Send message</button>
+    </form>
+    </div>
+
+   
+
+    <div id="users-List"></div>
+
+
+</body>
+</html>
