@@ -13,3 +13,11 @@ db.users.update({'name': "Thea K"}, { "$set" : { "password": '$2b$10$qHsW9MbNkKK
 db.users.deleteOne( { name: "D" } )
 
 $2b$10$qHsW9MbNkKKvZHFVUVbwPO6tdCNMSiC9RsdeAjmG79/hkQ4oyqNBm
+
+
+
+
+
+
+
+heroku git:remote -a chat-app-thea
